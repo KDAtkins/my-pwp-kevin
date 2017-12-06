@@ -73,7 +73,7 @@
 
 			<div id="kev-devo" class="kev-devo"><!--Kev/Devo-->
 				<div class="row">
-            	<div class="col text-center">
+            	<div class="col text-center my-5">
             		<img class="professional-image mb-4 img-fluid rounded-circle" src="images/professional-image.png" height="300" width="300" alt="Kevin D Atkins">
             		<h2 class="text-center">Kevin D. Atkins</h2>
             		<h2 class="texts-center">Full-Stack Web Developer</h2>
@@ -81,8 +81,8 @@
             </div>
 			</div><!--/Kev/Devo-->
 
-			<div id="portfolio" class="portfolio container-fluid"><!--Portfolio-->
-				<div class="row">
+			<div id="portfolio" class="portfolio"><!--Portfolio-->
+				<div class="row ">
 					<div class="col-md-4 align-self-center">
 						<h2 class="text-center">Portfolio</h2>
 					</div>
@@ -104,37 +104,40 @@
 
 			<div id="about" class="about"><!--About-->
 				<div class="row">
-					<div class="col">
-						<h2 class="text-center">About</h2>
+					<div class="col-7 mx-auto mt-5">
+						<div>
+							<h2 class="text-center">About</h2>
+						</div>
 						<p class="text-center">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique massa at neque scelerisque finibus. Phasellus bibendum leo vitae ipsum convallis mattis id eget arcu. Nulla eu tortor tortor. Aenean nec odio sed orci pulvinar fermentum. Aliquam semper odio elit, a pharetra lorem vehicula rutrum. Proin cursus laoreet dui ornare commodo. Nullam id justo et ligula sodales mattis id non arcu. Donec sollicitudin pretium lectus, quis ultricies diam bibendum id. Praesent sapien leo, gravida vestibulum orci eu, fermentum elementum nulla.</p>
+                  I first took interest in learning software development after being exposed to the buzzwords: "tech scene" & "start-up". Those words would eventually inspire my pursuit to eventually create an application of my own one day to share with the world. I'll admit, I was hesitant to learn any kind of code, mostly contingent on the difficulties and experiences of others, and decided to find out for myself by learning, "C", my first programming language.</p>
+						<p class="text-center">Currently, my focus is building web applications of concepts/ideas from myself and to create quality websites for local small businesses or optimize them, if they already exist.</p>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-4 align-center">
+					<div class="col-md-4 align-center mb-5">
 						<h3 class="text-center">Back-End</h3>
-						<ul class="d-block">
+						<ul class="mx-auto">
 							<li>mySQL & Data Design</li>
 							<li>Query Optimization</li>
 							<li>Object Oriented Programming</li>
 							<li>C++</li>
 							<li>Java</li>
 							<li>PHP</li>
-							<li>Ruby</li>
+							<li>Ruby on Rails</li>
 							<li>Terminal/Git</li>
 						</ul>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 mb-5">
 						<h3 class="text-center">Front-End</h3>
 						<ul>
 							<li>HTML/CSS</li>
 							<li>Bootstrap</li>
 							<li>Javascript</li>
-							<li>Angular 5 & Node</li>
+							<li>Angular 5</li>
 							<li>UI/UX</li>
 						</ul>
 					</div>
-					<div class="col-md-4 align-center">
+					<div class="col-md-4 align-center mb-5">
 						<h3 class="text-center">Security</h3>
 						<ul>
 							<li>Session Security</li>
@@ -149,10 +152,12 @@
 				</div>
 			</div><!--/About-->
 
-<!--			<div id="contact" class="contact container">--><!--Contact-->
-
-				<form id="contact" class="contact container" action="php/mailer.php" method="post" novalidate>
-					<div div class="col-md-6 mx-auto">
+			<div id="contact" class="contact"><!--Contact-->
+				<div>
+					<h2 class="text-center">Contact</h2>
+				</div>
+				<form id="contact" class="" action="php/mailer.php" method="post" novalidate>
+					<div class="col-md-6 mx-auto">
 						<div class="form-group">
 							<label for="name">Name <span class="text-danger">*</span></label>
 							<div class="input-group">
@@ -204,7 +209,7 @@
 						<div id="output-area"></div>
 					</div>
 				</div>
-<!--			</div>--> <!--/Contact-->
+			</div> <!--/Contact-->
 
 		</main>
 
