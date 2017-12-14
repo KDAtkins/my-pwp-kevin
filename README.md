@@ -16,3 +16,26 @@ fancybox3 http://fancyapps.com/fancybox/3/
 
 
 Grade Tier III
+
+## PWP Final Feedback
+Nice start on a very simple site. Overall this is an attractive direction for a theme, and is responsive on mobile. There are some technical points and UI polish that should be corrected to bring this project up to a more professional level - see Edits &amp; Suggestions below.
+
+Your contact form appears to work well - check your email for my test message.
+
+Your PWP passes at [Tier II](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). Your overall grade across all of your PWP Milestones is 23/40 points. Please know that due to the 4-Tier evaluation rubric, 20/40 is considered a passing score.
+
+- Milestone 1 - 20%: Tier II 20(0.2) = 4
+- Milestone 2a - 20%: Tier III 30(0.2) = 6
+- Milestone 2b - 10%: Tier III 30(0.1) = 3
+- Milestone 3 - 50%: Tier II 20(0.5) = 10
+
+### Edits &amp; Suggestions
+- I see a horizontal scroll bar at the bottom of the browser - this is usually caused by inconsistencies in the Bootstrap grid structure. It's really something that should be fixed as it's very noticeable to a developer's trained eye. All rows should be inside a container or container-fluid... this is where I would start.
+- Remove all "dead code" (commented out code)
+- Use meaningful `alt` text on your slider images. This is better for image search and accessibility.
+- Avoid using height and width attributes on images. Use CSS instead.
+- Form `#output-area` layout needs some fixing up.
+- I suggest having all external links open in a new tab. Use `target="_blank"` on the a tags to do this.
+- White text on the dark gray background might be easier to read.
+- Watch the file size on your images - they are a little to big. I recommend keeping them under 600kb for general web purposes.
+
